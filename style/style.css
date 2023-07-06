@@ -113,3 +113,50 @@ header{
 .about_section_text button{
     margin-top: 20px;
 }
+
+
+
+/* Our Service Section */
+
+.main_container{
+    background-image: url(img/background.png),linear-gradient(45deg,rgb(3, 3, 3),rgb(44, 44, 44));
+    padding: 20px 0px;
+}
+.our_service_section h1{
+    text-align: center;
+    font-size: 56px;
+    color: white;
+}
+.box_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.our_service_card .card{
+    color: white;
+    width: 240px;
+    text-align: center;
+    background-color: rgba(42, 42, 42, 0.297);
+    padding: 20px 10px;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    /* box-shadow: 4px 2px 105px gray; */
+    box-shadow: 4px 2px 105px gray;
+}
+.our_service_card .card h1{
+    font-size: 23px;
+    margin: 10px 0px;
+}
+.our_service_card .card img{
+    width: 80px;
+}
+.our_service_card .card p{
+    margin-bottom: 15px;
+}
+.our_service_card .card button{
+    padding: 10px 20px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
