@@ -36,4 +36,18 @@ header{
 }
 .menus ul li{
     list-style: none;
+    position: relative;
+}
+.menus ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: red;
+    left: 0;
+    bottom: -4px;
+    position: absolute;
+    transition: 0.5s;
+}
+.menus ul li:hover:after{
+    width: 100%;
 }
